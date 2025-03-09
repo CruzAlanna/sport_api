@@ -1,0 +1,17 @@
+Alanna (admin)
+-------------------
+email: alanna@mail.com
+pass
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.K193ut92R2_pNsBQPaeR4Bg7F5e6_LugaX2fY2XVOfQ
+
+regular-user (user)
+-------------------
+email: regular@test.com
+passwordu
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.NK99BsQ9twGaHzXCHSmCBuzO3um2vpQqjqsYNysXPtQ
+
+admin-user (admin)
+-------------------
+email: admin@test.com
+passworda
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozfQ.l6K22FedD6X_li9oedm4IOtZAdfV3SiTyl10asE25YI
