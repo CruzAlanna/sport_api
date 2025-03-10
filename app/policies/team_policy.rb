@@ -17,15 +17,15 @@ class TeamPolicy < ApplicationPolicy
   end
 
   def show?
-    team.user_id == user.id || user.admin?
+    team.user_id == user.id || user.coach? || user.admin?
   end
 
   def create?
-    user.admin?
+    user.coach? || user.admin?
   end
 
   def update?
-    user.admin?
+    user.coach? || user.admin?
   end
 
   def destroy?

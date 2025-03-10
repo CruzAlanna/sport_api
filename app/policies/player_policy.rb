@@ -18,18 +18,18 @@ class PlayerPolicy < ApplicationPolicy
   
   def show?
     team = Team.find(player.team_id) #accessing the teams table
-    team.user_id == user.id || user.admin?
+    team.user_id == user.id || user.coach? || user.admin?
   end
   
   def create?
-    true
+    user.coach? || user.admin?
   end
   
   def update?
-    user.admin?
+    user.coach? || user.admin?
   end
   
   def destroy?
-    user.admin?
+    user.coach? || user.admin?
   end
 end

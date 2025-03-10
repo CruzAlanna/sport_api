@@ -15,3 +15,9 @@ admin-user (admin)
 email: admin@test.com
 passworda
 eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozfQ.l6K22FedD6X_li9oedm4IOtZAdfV3SiTyl10asE25YI
+
+Coach Carlson (coach)
+-------------------
+email: coach@mail.com
+passcoach
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo2fQ.b-d2jfuTxW2vsDI6at5Sn7rz92AigxMHdkm-IPY8Nm8

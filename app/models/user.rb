@@ -3,7 +3,7 @@ class User < ApplicationRecord
   has_many :teams
   validates :email, presence: true, uniqueness: true
    # Only allow 'user' or 'admin' as valid roles
-   validates :role, inclusion: { in: %w[user admin], message: "%{value} is not a valid role" }
+   validates :role, inclusion: { in: %w[user coach admin], message: "%{value} is not a valid role" }
 
    def admin?
      role == 'admin'
@@ -11,5 +11,9 @@ class User < ApplicationRecord
  
    def user?
      role == 'user'
+   end
+
+   def coach?
+     role == 'coach'
    end
 end
